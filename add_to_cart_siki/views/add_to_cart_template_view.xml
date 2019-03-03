@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-       <!-- PRODUCT VIEW ON SHOP FORM AND SHOP-CART FORM-->
+       <!-- PRODUCT VIEW ON SHOP FORM AND SHOP-CART FORM Extend-->
         <template id="add_to_cart.products_item_inherited" inherit_id="website_sale.products_item" active="True" customize_show="True" name="Add to Cart with Ease">
             <xpath expr="//form[@action='/shop/cart/update']" method="post" position="replace">
 
