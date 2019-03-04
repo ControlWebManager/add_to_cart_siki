@@ -117,7 +117,7 @@
                               </div>
                           </section>
 
-                          <section id="section_list">
+                          <section id="section_list" style="padding-bottom: 5px !important; padding-top: 5px !important;">
                                <div name="prod_qty_value_and_buttons" style="float: right;clear: both;margin-top: 5px;">
                                         <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
                                         <t t-set="int_prod_qty" t-value="website.is_product_in_cart(product.product_variant_ids[0].id)"/>
